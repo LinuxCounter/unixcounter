@@ -1,0 +1,39 @@
+openapi: 3.0.3
+info:
+  title: Unix Counter (Server)
+  version: ${project.version}
+  license:
+    name: Apache License Version 2.0
+    url: https://www.apache.org/licenses/
+paths: { }
+components:
+  schemas:
+    ReportData:
+      description: POJO that represents the information for counting a host.
+      required:
+        - kernel_name
+        - kernel_version
+        - distribution_name
+        - distribution_version
+        - timezone
+        - hardware_id
+      type: object
+      properties:
+        user_id:
+          type: string
+        system_id:
+          type: string
+        kernel_name:
+          type: string
+        kernel_version:
+          type: string
+        distribution_name:
+          type: string
+        distribution_version:
+          type: string
+        timezone:
+          type: string
+        hardware_id:
+          type: string
+
+
