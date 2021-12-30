@@ -16,6 +16,9 @@
     <maven.compiler.release>${java.version}</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+    <plugin.maven.javadoc.version>3.3.1</plugin.maven.javadoc.version>
+    <plugin.maven.source.version>3.0.1</plugin.maven.source.version>
+
     <dependency.shiro.version>1.8.0</dependency.shiro.version>
   </properties>
 
@@ -71,6 +74,11 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.1</version>
+          <configuration>
+            <showWarnings>true</showWarnings>
+            <showDeprecation>true</showDeprecation>
+            <maxmem>2048m</maxmem>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -96,12 +104,15 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>3.3.1</version>
+          <version>${plugin.maven.javadoc.version}</version>
+          <configuration>
+            <maxmemory>2048m</maxmemory>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
-          <version>3.0.1</version>
+          <version>${plugin.maven.source.version}</version>
         </plugin>
 
         <plugin>
@@ -125,4 +136,35 @@
     </pluginManagement>
   </build>
 
+  <profiles>
+    <profile>
+      <id>docs</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>jar-no-fork</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>
