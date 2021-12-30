@@ -1,9 +1,14 @@
 = The Unix Counter
 :idprefix:
 :icons: font
-:toc:
+:toc: macro
 
 image:https://img.shields.io/badge/license-Apachev2-green[]
+link:https://github.com/LinuxCounter/unixcounter/actions/workflows/maven.yaml[image:https://github.com/LinuxCounter/unixcounter/actions/workflows/maven.yaml/badge.svg[Maven CI]]
+link:https://renovatebot.com[image:https://img.shields.io/badge/renovate-enabled-brightgreen.svg[Renovate]]
+link:https://openliberty.io/[image:https://img.shields.io/badge/AppServer-Open%20Liberty-blue[AppServer]]
+
+toc::[]
 
 This is the successor of the Linux Counter Project, which was abandoned in 2018.
 
