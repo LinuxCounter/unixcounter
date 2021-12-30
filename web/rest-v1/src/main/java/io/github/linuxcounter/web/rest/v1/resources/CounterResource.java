@@ -1,7 +1,9 @@
 package io.github.linuxcounter.web.rest.v1.resources;
 
 import io.github.linuxcounter.common.value.ReportData;
+import io.github.linuxcounter.services.api.CounterService;
 import javax.enterprise.context.RequestScoped;
+import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -21,6 +23,9 @@ import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 @Consumes({MediaType.APPLICATION_JSON})
 @Produces({MediaType.APPLICATION_JSON})
 public class CounterResource {
+
+  @Inject
+  private CounterService counterService;
 
   @POST
   @RequiresUser
@@ -48,7 +53,18 @@ public class CounterResource {
           )
       )
           ReportData reportData) {
+
+    counterService.countAnonymous(reportData);
+
     return Response.status(Status.NOT_IMPLEMENTED)
         .build();
+  }
+
+  public CounterService getCounterService() {
+    return counterService;
+  }
+
+  public void setCounterService(CounterService counterService) {
+    this.counterService = counterService;
   }
 }
