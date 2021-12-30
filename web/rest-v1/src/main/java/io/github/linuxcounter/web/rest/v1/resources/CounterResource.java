@@ -1,5 +1,6 @@
 package io.github.linuxcounter.web.rest.v1.resources;
 
+import io.github.linuxcounter.common.value.ReportData;
 import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -13,14 +14,14 @@ public class CounterResource {
 
   @POST
   @RequiresUser
-  public Response postCount() {
+  public Response postCount(ReportData reportData) {
     return Response.status(Status.NOT_IMPLEMENTED)
         .build();
   }
 
   @POST
   @Path("/anon")
-  public Response postCountAnonymous() {
+  public Response postCountAnonymous(ReportData reportData) {
     return Response.status(Status.NOT_IMPLEMENTED)
         .build();
   }
