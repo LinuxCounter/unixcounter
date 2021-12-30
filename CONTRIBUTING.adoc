@@ -36,3 +36,27 @@ Please prefix with `[#issueID]` like this:
 
 `[#12] description of WHAT is done`
 
+== Development environment
+
+Any IDE can be used.
+This section also contains examples of how to start local development servers with hot deployment for faster development.
+
+=== Java
+
+To start the hot-deploy application server (OpenLiberty), use this command:
+
+[source,bash]
+----
+./mvnw liberty:dev -pl web/rest-v1 -am
+----
+
+Any changes you make will now be reflected live on the server.
+
+You can of course also use your IDE‘s application server integration and develop on any other MicroProfile3/JakartaEE8 application server.
+
+[TIP]
+.Running integration tests
+====
+You can press kbd:[Enter] any time to run the integration tests from the maven project.
+====
+
