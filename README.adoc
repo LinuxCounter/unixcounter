@@ -1,0 +1,76 @@
+= The Unix Counter
+:idprefix:
+:icons: font
+:toc:
+
+image:https://img.shields.io/badge/license-Apachev2-green[]
+
+This is the successor of the Linux Counter Project, which was abandoned in 2018.
+
+== Description
+
+It was started as a «For fun!» project, to find out:
+
+    How many Linux users are there? (world-wide)
+
+The basic idea (for people) is to register our-selves, as being a Linux users!
+
+Of course: this way you won't get all Linux users counted as not every Linux user would register (it-self; at the Linux counter site).
+
+Thus: the only way to know the number, of Linux users world-wide, is to make a guess (preferably a not too wild guess) of the number, of Linux users.
+
+=== Not making wild guesses?
+
+There is only one way, to go: statistics; and so there we are!
+
+Also; see this: an http://en.wikipedia.org/wiki/Linux_Counter[article of Wikipedia]
+for information about a Linux Counter project.
+
+== Documentation
+
+If you want to contribute, please see link:CONTRIBUTING.adoc[].
+
+=== Installation
+
+Prerequisites: Java 17+.
+
+To compile, verify and package everything (server and client):
+
+[source,bash]
+.Compiling and Packaging the Linux Counter Project
+----
+./mvnw verify
+----
+
+To compile only the backend server:
+
+[source,bash]
+.Compiling and Packaging the Linux Counter Server Backend
+----
+./mvnw verify -pl web/rest-v1 -am
+----
+
+To compile only the client scripts:
+
+[source,bash]
+.Compiling and Packaging the Linux Counter Project Client Scripts
+----
+./mvnw verify -pl scripts -am
+----
+
+== License
+
+The new code is licensed under the link:LICENSE[Apache License v2].
+
+== History
+
+The Linux Counter was known on these domains:
+
+* https://counter.li.org[] until 2012.
+* https://www.linuxcounter.net[] beginning from 2012 onwards.
+
+The original counter was ran by a Non-Profit membership (organization, called «The Linux counter Project»), which was created on the 1999-05-01: taking over the running counter from **Harald Tveit Alvestrand** (who has been running the project since 1993) a chief executive officer of the Organization.
+
+== Miscellaneous
+
+On the 10th of September in 2011 the project was also http://linux.slashdot.org/story/11/09/10/1249257/the-linux-counter-relaunches[Slash Dotted].

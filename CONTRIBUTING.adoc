@@ -1,0 +1,38 @@
+= Contributing to the Linux Counter Project
+:idprefix:
+:icons: font
+:toc:
+
+== General Terms
+
+* You must contribute your commits under the link:LICENSE[Apache License v2]. +
+PRs with other license texts will not be accepted.
+* GitHub Actions must pass. +
+If they cannot pass, please specify why (in the PR description).
+
+== Code Style
+
+=== Java
+
+checkstyle will be provided and executed in the verify phase.
+
+=== JavaScript / Typescript
+
+Open to Contributions.
+
+=== Posix ShellScript (Client)
+
+shfmt and shellcheck must run.
+
+=== Documentation
+
+Documentation must be done in AsciiDoc, not Markdown.
+
+Please use one line per sentence.
+
+== PR and Commit descriptions
+
+Please prefix with `[#issueID]` like this:
+
+`[#12] description of WHAT is done`
+
