@@ -49,7 +49,7 @@
         <configuration>
           <webResources>
             <webResource>
-              <directory>target/dist</directory>
+              <directory>target/webapp</directory>
             </webResource>
           </webResources>
         </configuration>
