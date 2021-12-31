@@ -10,7 +10,7 @@ link:https://openliberty.io/[image:https://img.shields.io/badge/AppServer-Open%2
 
 toc::[]
 
-This is the successor of the Linux Counter Project, which was abandoned in 2018.
+This is the successor of the Linux Counter Project, which was abandoned in december of 2018.
 
 == Description
 
@@ -74,8 +74,5 @@ The Linux Counter was known on these domains:
 * https://counter.li.org[] until 2012.
 * https://www.linuxcounter.net[] beginning from 2012 onwards.
 
-The original counter was ran by a Non-Profit membership (organization, called «The Linux counter Project»), which was created on the 1999-05-01: taking over the running counter from **Harald Tveit Alvestrand** (who has been running the project since 1993) a chief executive officer of the Organization.
+The original counter, which already started in 1993 on counter.li.org, was ran by a Non-Profit membership (organization, called «The Linux Counter Project»), which was created on the 1999-05-01. In 2011 **Alexander Löhner** took over the running counter from **Harald Tveit Alvestrand** and revived it on linuxcounter.net. In 2015 Alexander became Christin (transsexual woman). The Counter was ""slashdotted** three times, while maintained by Christin Löhner. In decenmber 2018 Christin decided to shutdown the project and services of the Linuxcounter due to lack of interest. in 2021 Benjamin Marwell asked Christin to revive the project.
 
-== Miscellaneous
-
-On the 10th of September in 2011 the project was also http://linux.slashdot.org/story/11/09/10/1249257/the-linux-counter-relaunches[Slash Dotted].
