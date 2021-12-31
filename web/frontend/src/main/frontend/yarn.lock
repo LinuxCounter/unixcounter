@@ -1521,10 +1521,10 @@
   resolved "https://registry.npmmirror.com/@vue/cli-overlay/download/@vue/cli-overlay-4.5.15.tgz?cache=0&sync_timestamp=1637121111569&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcli-overlay%2Fdownload%2F%40vue%2Fcli-overlay-4.5.15.tgz#0700fd6bad39336d4189ba3ff7d25e638e818c9c"
   integrity sha1-BwD9a605M21Bibo/99JeY46BjJw=
 
-"@vue/cli-plugin-babel@~4.5.0":
+"@vue/cli-plugin-babel@4.5.15":
   version "4.5.15"
-  resolved "https://registry.npmmirror.com/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-4.5.15.tgz?cache=0&sync_timestamp=1637121189339&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcli-plugin-babel%2Fdownload%2F%40vue%2Fcli-plugin-babel-4.5.15.tgz#ae4fb2ed54255fe3d84df381dab68509641179ed"
-  integrity sha1-rk+y7VQlX+PYTfOB2raFCWQRee0=
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-4.5.15.tgz#ae4fb2ed54255fe3d84df381dab68509641179ed"
+  integrity sha512-hBLrwYfFkHldEe34op/YNgPhpOWI5n5DB2Qt9I/1Epeif4M4iFaayrgjvOR9AVM6WbD3Yx7WCFszYpWrQZpBzQ==
   dependencies:
     "@babel/core" "^7.11.0"
     "@vue/babel-preset-app" "^4.5.15"
@@ -1534,10 +1534,10 @@
     thread-loader "^2.1.3"
     webpack "^4.0.0"
 
-"@vue/cli-plugin-eslint@~4.5.0":
+"@vue/cli-plugin-eslint@4.5.15":
   version "4.5.15"
-  resolved "https://registry.npmmirror.com/@vue/cli-plugin-eslint/download/@vue/cli-plugin-eslint-4.5.15.tgz?cache=0&sync_timestamp=1637130364100&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcli-plugin-eslint%2Fdownload%2F%40vue%2Fcli-plugin-eslint-4.5.15.tgz#5781824a941f34c26336a67b1f6584a06c6a24ff"
-  integrity sha1-V4GCSpQfNMJjNqZ7H2WEoGxqJP8=
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-eslint/-/cli-plugin-eslint-4.5.15.tgz#5781824a941f34c26336a67b1f6584a06c6a24ff"
+  integrity sha512-/2Fl6wY/5bz3HD035oSnFRMsKNxDxU396KqBdpCQdwdvqk4mm6JAbXqihpcBRTNPeTO6w+LwGe6FE56PVbJdbg==
   dependencies:
     "@vue/cli-shared-utils" "^4.5.15"
     eslint-loader "^2.2.1"
@@ -1553,10 +1553,10 @@
   dependencies:
     "@vue/cli-shared-utils" "^4.5.15"
 
-"@vue/cli-plugin-unit-jest@~4.5.0":
+"@vue/cli-plugin-unit-jest@4.5.15":
   version "4.5.15"
-  resolved "https://registry.npmmirror.com/@vue/cli-plugin-unit-jest/download/@vue/cli-plugin-unit-jest-4.5.15.tgz#7be914ca1507ca344487eb377ed925c9db0b772a"
-  integrity sha1-e+kUyhUHyjREh+s3ftklydsLdyo=
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-unit-jest/-/cli-plugin-unit-jest-4.5.15.tgz#7be914ca1507ca344487eb377ed925c9db0b772a"
+  integrity sha512-oE3RDMerb21P6ALg70Zh2zU+RYYjoe09/7ZXYUj03uTb2obqUbcINpFfeVwM0B/J6H1YmqWJpnNBxWURhrqQHg==
   dependencies:
     "@babel/core" "^7.11.0"
     "@babel/plugin-transform-modules-commonjs" "^7.9.6"
@@ -1579,10 +1579,10 @@
   resolved "https://registry.npmmirror.com/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-4.5.15.tgz#466c1f02777d02fef53a9bb49a36cc3a3bcfec4e"
   integrity sha1-RmwfAnd9Av71Opu0mjbMOjvP7E4=
 
-"@vue/cli-service@~4.5.0":
+"@vue/cli-service@4.5.15":
   version "4.5.15"
-  resolved "https://registry.npmmirror.com/@vue/cli-service/download/@vue/cli-service-4.5.15.tgz?cache=0&sync_timestamp=1637121112890&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcli-service%2Fdownload%2F%40vue%2Fcli-service-4.5.15.tgz#0e9a186d51550027d0e68e95042077eb4d115b45"
-  integrity sha1-DpoYbVFVACfQ5o6VBCB3600RW0U=
+  resolved "https://registry.yarnpkg.com/@vue/cli-service/-/cli-service-4.5.15.tgz#0e9a186d51550027d0e68e95042077eb4d115b45"
+  integrity sha512-sFWnLYVCn4zRfu45IcsIE9eXM0YpDV3S11vlM2/DVbIPAGoYo5ySpSof6aHcIvkeGsIsrHFpPHzNvDZ/efs7jA==
   dependencies:
     "@intervolga/optimize-cssnano-plugin" "^1.0.5"
     "@soda/friendly-errors-webpack-plugin" "^1.7.1"
@@ -1678,7 +1678,7 @@
     "@vue/compiler-core" "3.2.26"
     "@vue/shared" "3.2.26"
 
-"@vue/compiler-sfc@3.2.26", "@vue/compiler-sfc@^3.0.0":
+"@vue/compiler-sfc@3.2.26":
   version "3.2.26"
   resolved "https://registry.npmmirror.com/@vue/compiler-sfc/download/@vue/compiler-sfc-3.2.26.tgz#3ce76677e4aa58311655a3bea9eb1cb804d2273f"
   integrity sha512-ePpnfktV90UcLdsDQUh2JdiTuhV0Skv2iYXxfNMOK/F3Q+2BO0AulcVcfoksOpTJGmhhfosWfMyEaEf0UaWpIw==
@@ -1718,10 +1718,10 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/eslint-config-prettier@^6.0.0":
+"@vue/eslint-config-prettier@6.0.0":
   version "6.0.0"
-  resolved "https://registry.npmmirror.com/@vue/eslint-config-prettier/download/@vue/eslint-config-prettier-6.0.0.tgz#ad5912b308f4ae468458e02a2b05db0b9d246700"
-  integrity sha1-rVkSswj0rkaEWOAqKwXbC50kZwA=
+  resolved "https://registry.yarnpkg.com/@vue/eslint-config-prettier/-/eslint-config-prettier-6.0.0.tgz#ad5912b308f4ae468458e02a2b05db0b9d246700"
+  integrity sha512-wFQmv45c3ige5EA+ngijq40YpVcIkAy0Lihupnsnd1Dao5CBbPyfCzqtejFLZX1EwH/kCJdpz3t6s+5wd3+KxQ==
   dependencies:
     eslint-config-prettier "^6.0.0"
 
@@ -1778,7 +1778,7 @@
   resolved "https://registry.npmmirror.com/@vue/shared/download/@vue/shared-3.2.26.tgz#7acd1621783571b9a82eca1f041b4a0a983481d9"
   integrity sha512-vPV6Cq+NIWbH5pZu+V+2QHE9y1qfuTq49uNWw4f7FDEeZaDU2H2cx5jcUZOAKW7qTrUS4k6qZPbMy1x4N96nbA==
 
-"@vue/test-utils@^2.0.0-rc.18":
+"@vue/test-utils@2.0.0-rc.18":
   version "2.0.0-rc.18"
   resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.0.0-rc.18.tgz#ff22b252424fe72e5462cbb3a8e7405cef11ffb6"
   integrity sha512-aifolXjVdsogjaLmDoZ0FU8vN+R67aWmg9OuVeED4w5Ij5GFQLrlhM19uhWe/r5xXUL4fXMk3pX5wW6FJP1NcQ==
@@ -2279,10 +2279,10 @@ babel-core@^7.0.0-bridge.0:
   resolved "https://registry.npm.taobao.org/babel-core/download/babel-core-7.0.0-bridge.0.tgz#95a492ddd90f9b4e9a4a1da14eb335b87b634ece"
   integrity sha1-laSS3dkPm06aSh2hTrM1uHtjTs4=
 
-babel-eslint@^10.1.0:
+babel-eslint@10.1.0:
   version "10.1.0"
-  resolved "https://registry.npmmirror.com/babel-eslint/download/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
-  integrity sha1-aWjlaKkQt4+zd5zdi2rC9HmUMjI=
+  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
+  integrity sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/parser" "^7.7.0"
@@ -3329,15 +3329,15 @@ core-js-compat@^3.18.0, core-js-compat@^3.19.1, core-js-compat@^3.6.5:
     browserslist "^4.19.1"
     semver "7.0.0"
 
+core-js@3.20.1, core-js@^3.6.5:
+  version "3.20.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.20.1.tgz#eb1598047b7813572f1dc24b7c6a95528c99eef3"
+  integrity sha512-btdpStYFQScnNVQ5slVcr858KP0YWYjV16eGJQw8Gg7CWtu/2qNvIM3qVRIR3n1pK2R9NNOrTevbvAYxajwEjg==
+
 core-js@^2.4.0:
   version "2.6.12"
   resolved "https://registry.npmmirror.com/core-js/download/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha1-2TM9+nsGXjR8xWgiGdb2kIWcwuw=
-
-core-js@^3.6.5:
-  version "3.20.1"
-  resolved "https://registry.npmmirror.com/core-js/download/core-js-3.20.1.tgz#eb1598047b7813572f1dc24b7c6a95528c99eef3"
-  integrity sha512-btdpStYFQScnNVQ5slVcr858KP0YWYjV16eGJQw8Gg7CWtu/2qNvIM3qVRIR3n1pK2R9NNOrTevbvAYxajwEjg==
 
 core-util-is@1.0.2:
   version "1.0.2"
@@ -4176,17 +4176,17 @@ eslint-loader@^2.2.1:
     object-hash "^1.1.4"
     rimraf "^2.6.1"
 
-eslint-plugin-prettier@^3.3.1:
+eslint-plugin-prettier@3.4.1:
   version "3.4.1"
-  resolved "https://registry.npmmirror.com/eslint-plugin-prettier/download/eslint-plugin-prettier-3.4.1.tgz#e9ddb200efb6f3d05ffe83b1665a716af4a387e5"
-  integrity sha1-6d2yAO+289Bf/oOxZlpxavSjh+U=
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.4.1.tgz#e9ddb200efb6f3d05ffe83b1665a716af4a387e5"
+  integrity sha512-htg25EUYUeIhKHXjOinK4BgCcDwtLHjqaxCDsMy5nbnUMkKFvIhMVCp+5GFUXQ4Nr8lBsPqtGAqBenbpFqAA2g==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-vue@^7.0.0:
+eslint-plugin-vue@7.20.0:
   version "7.20.0"
-  resolved "https://registry.npmmirror.com/eslint-plugin-vue/download/eslint-plugin-vue-7.20.0.tgz#98c21885a6bfdf0713c3a92957a5afeaaeed9253"
-  integrity sha1-mMIYhaa/3wcTw6kpV6Wv6q7tklM=
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.20.0.tgz#98c21885a6bfdf0713c3a92957a5afeaaeed9253"
+  integrity sha512-oVNDqzBC9h3GO+NTgWeLMhhGigy6/bQaQbHS+0z7C4YEu/qK/yxHvca/2PTZtGNPsCrHwOTgKMrwu02A9iPBmw==
   dependencies:
     eslint-utils "^2.1.0"
     natural-compare "^1.4.0"
@@ -4228,9 +4228,9 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.npmmirror.com/eslint-visitor-keys/download/eslint-visitor-keys-1.3.0.tgz?cache=0&sync_timestamp=1636378452762&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Feslint-visitor-keys%2Fdownload%2Feslint-visitor-keys-1.3.0.tgz#30ebd1ef7c2fdff01c3a4f151044af25fab0523e"
   integrity sha1-MOvR73wv3/AcOk8VEESvJfqwUj4=
 
-eslint@^6.7.2:
+eslint@6.8.0:
   version "6.8.0"
-  resolved "https://registry.npmmirror.com/eslint/download/eslint-6.8.0.tgz#62262d6729739f9275723824302fb227c8c93ffb"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.8.0.tgz#62262d6729739f9275723824302fb227c8c93ffb"
   integrity sha512-K+Iayyo2LtyYhDSYwz5D5QdWw0hCacNzyq1Y821Xna2xSJj7cijoLLYmLxTQgcgZ9mC61nryMy9S7GRbYpI5Ig==
   dependencies:
     "@babel/code-frame" "^7.0.0"
@@ -8102,7 +8102,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-"prettier@^1.18.2 || ^2.0.0", prettier@^2.2.1:
+prettier@2.5.1, "prettier@^1.18.2 || ^2.0.0":
   version "2.5.1"
   resolved "https://registry.npmmirror.com/prettier/download/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
@@ -9699,9 +9699,9 @@ typedarray@^0.0.6:
   resolved "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@~3.9.3:
+typescript@3.9.10:
   version "3.9.10"
-  resolved "https://registry.npmmirror.com/typescript/download/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
   integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
 uglify-js@3.4.x:
@@ -9977,6 +9977,18 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
 
+vue-jest@5.0.0-alpha.10:
+  version "5.0.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/vue-jest/-/vue-jest-5.0.0-alpha.10.tgz#4326977b3b0268b1def140f3b69113c2d82fb090"
+  integrity sha512-iN62cTi4AL0UsgxEyVeJtHG6qXEv+8Ci2wX1vP3b/dAZvyBRmqy5aJHQrP6VCEuio+HgHQ1LAZ+ccM2pouBmlg==
+  dependencies:
+    "@babel/plugin-transform-modules-commonjs" "^7.2.0"
+    chalk "^2.1.0"
+    convert-source-map "^1.6.0"
+    extract-from-css "^0.4.4"
+    source-map "0.5.6"
+    tsconfig "^7.0.0"
+
 vue-jest@^3.0.5:
   version "3.0.7"
   resolved "https://registry.npmmirror.com/vue-jest/download/vue-jest-3.0.7.tgz#a6d29758a5cb4d750f5d1242212be39be4296a33"
@@ -9993,18 +10005,6 @@ vue-jest@^3.0.5:
     source-map "^0.5.6"
     tsconfig "^7.0.0"
     vue-template-es2015-compiler "^1.6.0"
-
-vue-jest@^5.0.0-0:
-  version "5.0.0-alpha.10"
-  resolved "https://registry.npmmirror.com/vue-jest/download/vue-jest-5.0.0-alpha.10.tgz#4326977b3b0268b1def140f3b69113c2d82fb090"
-  integrity sha1-QyaXezsCaLHe8UDztpETwtgvsJA=
-  dependencies:
-    "@babel/plugin-transform-modules-commonjs" "^7.2.0"
-    chalk "^2.1.0"
-    convert-source-map "^1.6.0"
-    extract-from-css "^0.4.4"
-    source-map "0.5.6"
-    tsconfig "^7.0.0"
 
 "vue-loader-v16@npm:vue-loader@^16.1.0":
   version "16.8.3"
@@ -10039,9 +10039,9 @@ vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.nlark.com/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@^3.0.0:
+vue@3.2.26:
   version "3.2.26"
-  resolved "https://registry.npmmirror.com/vue/download/vue-3.2.26.tgz#5db575583ecae495c7caa5c12fd590dffcbb763e"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.26.tgz#5db575583ecae495c7caa5c12fd590dffcbb763e"
   integrity sha512-KD4lULmskL5cCsEkfhERVRIOEDrfEL9CwAsLYpzptOGjaGFNWo3BQ9g8MAb7RaIO71rmVOziZ/uEN/rHwcUIhg==
   dependencies:
     "@vue/compiler-dom" "3.2.26"
