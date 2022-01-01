@@ -19,7 +19,7 @@
     <plugin.maven.javadoc.version>3.3.1</plugin.maven.javadoc.version>
     <plugin.maven.source.version>3.2.1</plugin.maven.source.version>
 
-    <dependency.jakarta.jaxb.version>2.3.3</dependency.jakarta.jaxb.version>
+    <dependency.jakarta.jaxb.version>2.3.5</dependency.jakarta.jaxb.version>
     <dependency.shiro.version>1.8.0</dependency.shiro.version>
   </properties>
 
