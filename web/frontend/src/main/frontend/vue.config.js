@@ -8,4 +8,10 @@ const path = require("path");
 module.exports = {
   // options...
   outputDir: path.resolve(__dirname, "../../../target/webapp"),
-}
+
+  pluginOptions: {
+    vuetify: {
+      // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
+    },
+  },
+};

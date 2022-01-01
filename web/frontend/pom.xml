@@ -114,6 +114,17 @@
             </configuration>
           </execution>
 
+          <execution>
+            <id>yarn lint</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>yarn</goal>
+            </goals>
+            <configuration>
+              <arguments>run lint</arguments>
+            </configuration>
+          </execution>
+
         </executions>
 
       </plugin>
