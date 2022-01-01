@@ -1519,9 +1519,9 @@
     lodash.kebabcase "^4.1.1"
     svg-tags "^1.0.0"
 
-"@vue/babel-preset-app@^5.0.0-beta.7":
+"@vue/babel-preset-app@^5.0.0-rc.1":
   version "5.0.0-rc.1"
-  resolved "https://registry.npmmirror.com/@vue/babel-preset-app/download/@vue/babel-preset-app-5.0.0-rc.1.tgz#bcf3667fbd4967d39495f4025a093859c6174363"
+  resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-5.0.0-rc.1.tgz#bcf3667fbd4967d39495f4025a093859c6174363"
   integrity sha512-inJV1lxC+dUvqwPy9gbEjELX+Vk/Ys961S61aIn52gSCZBLHfk8/7mM7B3PamgHSG8yQmgrd3BOZsKSSsAMNJQ==
   dependencies:
     "@babel/core" "^7.12.16"
@@ -1604,22 +1604,22 @@
     "@vue/babel-plugin-transform-vue-jsx" "^1.2.1"
     camelcase "^5.0.0"
 
-"@vue/cli-overlay@^5.0.0-beta.7":
+"@vue/cli-overlay@^5.0.0-rc.1":
   version "5.0.0-rc.1"
-  resolved "https://registry.npmmirror.com/@vue/cli-overlay/download/@vue/cli-overlay-5.0.0-rc.1.tgz?cache=0&sync_timestamp=1637121111569&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcli-overlay%2Fdownload%2F%40vue%2Fcli-overlay-5.0.0-rc.1.tgz#84a60b305614eda3d00e959cfb9780d713e352f9"
+  resolved "https://registry.yarnpkg.com/@vue/cli-overlay/-/cli-overlay-5.0.0-rc.1.tgz#84a60b305614eda3d00e959cfb9780d713e352f9"
   integrity sha512-pJ8DxDlFiM73FaNlpKqOi3haG15c/6jPLiFZKIGJDoMxLLufSxEZ8aSfvbFRjqwGy/o3I4jzg086Yy+3ZhdG1g==
 
-"@vue/cli-plugin-babel@5.0.0-beta.7":
-  version "5.0.0-beta.7"
-  resolved "https://registry.npmmirror.com/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-5.0.0-beta.7.tgz?cache=0&sync_timestamp=1637121189339&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcli-plugin-babel%2Fdownload%2F%40vue%2Fcli-plugin-babel-5.0.0-beta.7.tgz#2e149bf26b9001aa8cb9622ed49b3a5973b7b2db"
-  integrity sha1-LhSb8muQAaqMuWIu1Js6WXO3sts=
+"@vue/cli-plugin-babel@5.0.0-rc.1":
+  version "5.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-5.0.0-rc.1.tgz#9fd1f7e71240ec15c921e7680558c23920d04bd0"
+  integrity sha512-ldVuIkPDAuW831l4u7QMkqEhn4/Gil5Wv617i6h4rwDYAAXPgdf8Ce6b7jH4XEyQ2HCu93TzAK1i2njkWV1wrw==
   dependencies:
     "@babel/core" "^7.12.16"
-    "@vue/babel-preset-app" "^5.0.0-beta.7"
-    "@vue/cli-shared-utils" "^5.0.0-beta.7"
+    "@vue/babel-preset-app" "^5.0.0-rc.1"
+    "@vue/cli-shared-utils" "^5.0.0-rc.1"
     babel-loader "^8.2.2"
     thread-loader "^3.0.0"
-    webpack "^5.22.0"
+    webpack "^5.54.0"
 
 "@vue/cli-plugin-eslint@4.5.15":
   version "4.5.15"
@@ -1633,9 +1633,9 @@
     webpack "^4.0.0"
     yorkie "^2.0.0"
 
-"@vue/cli-plugin-router@^5.0.0-beta.7":
+"@vue/cli-plugin-router@^5.0.0-rc.1":
   version "5.0.0-rc.1"
-  resolved "https://registry.npmmirror.com/@vue/cli-plugin-router/download/@vue/cli-plugin-router-5.0.0-rc.1.tgz?cache=0&sync_timestamp=1637121111944&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcli-plugin-router%2Fdownload%2F%40vue%2Fcli-plugin-router-5.0.0-rc.1.tgz#9452cc4bade70bd243f7ecbfdf7c80487293af14"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-router/-/cli-plugin-router-5.0.0-rc.1.tgz#9452cc4bade70bd243f7ecbfdf7c80487293af14"
   integrity sha512-eRMeUNY89PbyH/Gkt0IGfNT2qK4fZhTdBDKrR/hwyk57TBDse/h2jZ9inPqfSnrdIrMOqYsLU2ixzSzJVXXOVw==
   dependencies:
     "@vue/cli-shared-utils" "^5.0.0-rc.1"
@@ -1661,26 +1661,26 @@
     ts-jest "^24.2.0"
     vue-jest "^3.0.5"
 
-"@vue/cli-plugin-vuex@^5.0.0-beta.7":
+"@vue/cli-plugin-vuex@^5.0.0-rc.1":
   version "5.0.0-rc.1"
-  resolved "https://registry.npmmirror.com/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-5.0.0-rc.1.tgz#2f4f04ae831ebca688acea5531658d1236baed23"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-vuex/-/cli-plugin-vuex-5.0.0-rc.1.tgz#2f4f04ae831ebca688acea5531658d1236baed23"
   integrity sha512-ShfPIvuD+AFUtUcTw5okLUnBy8o4NrC0ICPpD7z+KG4gbfWzZMmT2TAkjqO9pp21cI+bYzigsBZ/FoXiU5+h7Q==
 
-"@vue/cli-service@5.0.0-beta.7":
-  version "5.0.0-beta.7"
-  resolved "https://registry.npmmirror.com/@vue/cli-service/download/@vue/cli-service-5.0.0-beta.7.tgz?cache=0&sync_timestamp=1637121112890&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcli-service%2Fdownload%2F%40vue%2Fcli-service-5.0.0-beta.7.tgz#e1805fc3cb1654539b9ca306c15c21ac556b4b4d"
-  integrity sha1-4YBfw8sWVFObnKMGwVwhrFVrS00=
+"@vue/cli-service@5.0.0-rc.1":
+  version "5.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@vue/cli-service/-/cli-service-5.0.0-rc.1.tgz#a0e659d007acf6e162d8ab42b590386ec9c1fcb9"
+  integrity sha512-xQIHBJzSK+tuOrMnfywRAqfcshClBG/3z/6L/ep8m9O1egsnrkjf2252znJqNaSXvER6b5exDr8M4wnNvhinBw==
   dependencies:
     "@babel/helper-compilation-targets" "^7.12.16"
     "@soda/friendly-errors-webpack-plugin" "^1.8.0"
     "@soda/get-current-script" "^1.0.2"
     "@types/minimist" "^1.2.0"
     "@types/webpack-dev-server" "^4.1.0"
-    "@vue/cli-overlay" "^5.0.0-beta.7"
-    "@vue/cli-plugin-router" "^5.0.0-beta.7"
-    "@vue/cli-plugin-vuex" "^5.0.0-beta.7"
-    "@vue/cli-shared-utils" "^5.0.0-beta.7"
-    "@vue/component-compiler-utils" "^3.1.2"
+    "@vue/cli-overlay" "^5.0.0-rc.1"
+    "@vue/cli-plugin-router" "^5.0.0-rc.1"
+    "@vue/cli-plugin-vuex" "^5.0.0-rc.1"
+    "@vue/cli-shared-utils" "^5.0.0-rc.1"
+    "@vue/component-compiler-utils" "^3.3.0"
     "@vue/vue-loader-v15" "npm:vue-loader@^15.9.7"
     "@vue/web-component-wrapper" "^1.3.0"
     acorn "^8.0.5"
@@ -1694,7 +1694,7 @@
     clipboardy "^2.3.0"
     cliui "^7.0.4"
     copy-webpack-plugin "^9.0.1"
-    css-loader "^5.1.1"
+    css-loader "^6.5.0"
     css-minimizer-webpack-plugin "^3.0.2"
     cssnano "^5.0.0"
     debug "^4.1.1"
@@ -1709,7 +1709,7 @@
     launch-editor-middleware "^2.2.1"
     lodash.defaultsdeep "^4.6.1"
     lodash.mapvalues "^4.6.0"
-    mini-css-extract-plugin "^1.3.7"
+    mini-css-extract-plugin "^2.4.3"
     minimist "^1.2.5"
     module-alias "^2.2.2"
     portfinder "^1.0.26"
@@ -1719,9 +1719,9 @@
     ssri "^8.0.1"
     terser-webpack-plugin "^5.1.1"
     thread-loader "^3.0.0"
-    vue-loader "^16.4.0"
+    vue-loader "^16.8.2"
     vue-style-loader "^4.1.3"
-    webpack "^5.22.0"
+    webpack "^5.54.0"
     webpack-bundle-analyzer "^4.4.0"
     webpack-chain "^6.5.1"
     webpack-dev-server "^4.1.0"
@@ -1747,7 +1747,7 @@
     semver "^6.1.0"
     strip-ansi "^6.0.0"
 
-"@vue/cli-shared-utils@^5.0.0-beta.7", "@vue/cli-shared-utils@^5.0.0-rc.1":
+"@vue/cli-shared-utils@^5.0.0-rc.1":
   version "5.0.0-rc.1"
   resolved "https://registry.npmmirror.com/@vue/cli-shared-utils/download/@vue/cli-shared-utils-5.0.0-rc.1.tgz#0587c663775e666227d896ebbb365ea9909047d8"
   integrity sha512-rZVTGfSQ0Sqw76BD/Z6iARfnO2r5ICSxt0iIpzjM8w9ohpRtI2B45NrngF0rILwy9d8we4A/n7gQQ0rqwkAX7g==
@@ -1807,7 +1807,7 @@
     "@vue/compiler-dom" "3.2.26"
     "@vue/shared" "3.2.26"
 
-"@vue/component-compiler-utils@^3.1.0", "@vue/component-compiler-utils@^3.1.2":
+"@vue/component-compiler-utils@^3.1.0", "@vue/component-compiler-utils@^3.3.0":
   version "3.3.0"
   resolved "https://registry.npmmirror.com/@vue/component-compiler-utils/download/@vue/component-compiler-utils-3.3.0.tgz?cache=0&sync_timestamp=1635248303132&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcomponent-compiler-utils%2Fdownload%2F%40vue%2Fcomponent-compiler-utils-3.3.0.tgz#f9f5fb53464b0c37b2c8d2f3fbfe44df60f61dc9"
   integrity sha1-+fX7U0ZLDDeyyNLz+/5E32D2Hck=
@@ -3711,20 +3711,18 @@ css-declaration-sorter@^6.0.3:
   dependencies:
     timsort "^0.3.0"
 
-css-loader@^5.1.1:
-  version "5.2.7"
-  resolved "https://registry.npmmirror.com/css-loader/download/css-loader-5.2.7.tgz#9b9f111edf6fb2be5dc62525644cbc9c232064ae"
-  integrity sha1-m58RHt9vsr5dxiUlZEy8nCMgZK4=
+css-loader@^6.5.0:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-6.5.1.tgz#0c43d4fbe0d97f699c91e9818cb585759091d1b1"
+  integrity sha512-gEy2w9AnJNnD9Kuo4XAP9VflW/ujKoS9c/syO+uWMlm5igc7LysKzPXaDoR2vroROkSwsTS2tGr1yGGEbZOYZQ==
   dependencies:
     icss-utils "^5.1.0"
-    loader-utils "^2.0.0"
     postcss "^8.2.15"
     postcss-modules-extract-imports "^3.0.0"
     postcss-modules-local-by-default "^4.0.0"
     postcss-modules-scope "^3.0.0"
     postcss-modules-values "^4.0.0"
     postcss-value-parser "^4.1.0"
-    schema-utils "^3.0.0"
     semver "^7.3.5"
 
 css-minimizer-webpack-plugin@^3.0.2:
@@ -7101,14 +7099,12 @@ mimic-fn@^2.1.0:
   resolved "https://registry.npm.taobao.org/mimic-fn/download/mimic-fn-2.1.0.tgz?cache=0&sync_timestamp=1617823545101&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmimic-fn%2Fdownload%2Fmimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
 
-mini-css-extract-plugin@^1.3.7:
-  version "1.6.2"
-  resolved "https://registry.npmmirror.com/mini-css-extract-plugin/download/mini-css-extract-plugin-1.6.2.tgz?cache=0&sync_timestamp=1637170738757&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fmini-css-extract-plugin%2Fdownload%2Fmini-css-extract-plugin-1.6.2.tgz#83172b4fd812f8fc4a09d6f6d16f924f53990ca8"
-  integrity sha1-gxcrT9gS+PxKCdb20W+ST1OZDKg=
+mini-css-extract-plugin@^2.4.3:
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.4.5.tgz#191d6c170226037212c483af1180b4010b7b9eef"
+  integrity sha512-oEIhRucyn1JbT/1tU2BhnwO6ft1jjH1iCX9Gc59WFMg0n5773rQU0oyQ0zzeYFFuBfONaRbQJyGoPtuNseMxjA==
   dependencies:
-    loader-utils "^2.0.0"
-    schema-utils "^3.0.0"
-    webpack-sources "^1.1.0"
+    schema-utils "^4.0.0"
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
@@ -10209,9 +10205,9 @@ vue-jest@^3.0.5:
     tsconfig "^7.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-loader@^16.4.0:
+vue-loader@^16.8.2:
   version "16.8.3"
-  resolved "https://registry.npmmirror.com/vue-loader/download/vue-loader-16.8.3.tgz#d43e675def5ba9345d6c7f05914c13d861997087"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.8.3.tgz#d43e675def5ba9345d6c7f05914c13d861997087"
   integrity sha512-7vKN45IxsKxe5GcVCbc2qFU5aWzyiLrYJyUuMz4BQLKctCj/fmCa0w6fGiiQ2cLFetNcek1ppGJQDCup0c1hpA==
   dependencies:
     chalk "^4.1.0"
@@ -10416,7 +10412,7 @@ webpack-merge@^5.7.3:
     clone-deep "^4.0.1"
     wildcard "^2.0.0"
 
-webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
+webpack-sources@^1.4.0, webpack-sources@^1.4.1:
   version "1.4.3"
   resolved "https://registry.npmmirror.com/webpack-sources/download/webpack-sources-1.4.3.tgz?cache=0&sync_timestamp=1636982753897&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fwebpack-sources%2Fdownload%2Fwebpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
   integrity sha1-7t2OwLko+/HL/plOItLYkPMwqTM=
@@ -10434,9 +10430,9 @@ webpack-virtual-modules@^0.4.2:
   resolved "https://registry.nlark.com/webpack-virtual-modules/download/webpack-virtual-modules-0.4.3.tgz?cache=0&sync_timestamp=1620993608212&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fwebpack-virtual-modules%2Fdownload%2Fwebpack-virtual-modules-0.4.3.tgz#cd597c6d51d5a5ecb473eea1983a58fa8a17ded9"
   integrity sha1-zVl8bVHVpey0c+6hmDpY+ooX3tk=
 
-webpack@*, webpack@^5.22.0:
+webpack@*, webpack@^5.54.0:
   version "5.65.0"
-  resolved "https://registry.npmmirror.com/webpack/download/webpack-5.65.0.tgz#ed2891d9145ba1f0d318e4ea4f89c3fa18e6f9be"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.65.0.tgz#ed2891d9145ba1f0d318e4ea4f89c3fa18e6f9be"
   integrity sha512-Q5or2o6EKs7+oKmJo7LaqZaMOlDWQse9Tm5l1WAfU/ujLGN5Pb0SqGeVkN/4bpPmEqEP5RnVhiqsOtWtUVwGRw==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
