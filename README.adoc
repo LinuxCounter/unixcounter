@@ -72,7 +72,7 @@ The new code is licensed under the link:LICENSE[Apache License v2].
 The Linux Counter was known on these domains:
 
 * http://counter.li.org[] since 1993 until 2011 by Harald Tveit Alvestrand.
-* https://www.linuxcounter.net[] since 2011 by Alexander Mieland (later Alexander Löhner by marriage, then Christin Löhner)
+* https://www.linuxcounter.net[] since 2011 by Christin Löhner.
 * https://www.unixcounter.com[] since the revival in 2021/2022 by Benjamin Marwell and Christin Löhner.
 
 The original counter, which already started in 1993 on counter.li.org, was ran by a Non-Profit membership (organization, called «The Linux Counter Project»), which was created on the 1999-05-01. In 2011 **Alexander Mieland** took over the running counter from **Harald Tveit Alvestrand** and revived it on linuxcounter.net. In 2012 Alexander married and changed his last name to **Löhner**. In 2015 Alexander Löhner became **Christin Löhner** (transsexual woman).footnote:[https://www.christin-loehner.de/2016/01/18/a-mass-of-positive-reactions-on-my-newsletter/]
