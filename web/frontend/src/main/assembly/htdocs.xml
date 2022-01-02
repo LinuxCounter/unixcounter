@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<assembly>
+  <id>htdocs</id>
+  <formats>
+    <format>tar.gz</format>
+  </formats>
+
+  <includeBaseDirectory>false</includeBaseDirectory>
+
+  <fileSets>
+    <fileSet>
+      <directory>target/${project.build.finalName}</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+  </fileSets>
+</assembly>
