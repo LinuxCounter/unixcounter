@@ -8,7 +8,30 @@ info:
 paths: { }
 components:
   schemas:
-    ReportData:
+    RegisteredReportData:
+      description: POJO that represents the information for counting a host.
+      required:
+        - system_id
+        - kernel_name
+        - kernel_version
+        - distribution_name
+        - distribution_version
+        - timezone
+      type: object
+      properties:
+        system_id:
+          type: string
+        kernel_name:
+          type: string
+        kernel_version:
+          type: string
+        distribution_name:
+          type: string
+        distribution_version:
+          type: string
+        timezone:
+          type: string
+    AnonymousReportData:
       description: POJO that represents the information for counting a host.
       required:
         - kernel_name
@@ -19,10 +42,6 @@ components:
         - hardware_id
       type: object
       properties:
-        user_id:
-          type: string
-        system_id:
-          type: string
         kernel_name:
           type: string
         kernel_version:

@@ -1,6 +1,7 @@
 package io.github.linuxcounter.web.rest.v1.resources;
 
-import io.github.linuxcounter.common.value.ReportData;
+import io.github.linuxcounter.common.value.AnonymousReportData;
+import io.github.linuxcounter.common.value.RegisteredReportData;
 import io.github.linuxcounter.services.api.CounterService;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -34,10 +35,10 @@ public class CounterResource {
           required = true,
           content = @Content(
               mediaType = "application/json",
-              schema = @Schema(required = true, ref = "#/components/schemas/ReportData")
+              schema = @Schema(required = true, ref = "#/components/schemas/RegisteredReportData")
           )
       )
-          ReportData reportData) {
+          RegisteredReportData reportData) {
     return Response.status(Status.NOT_IMPLEMENTED)
         .build();
   }
@@ -49,10 +50,10 @@ public class CounterResource {
           required = true,
           content = @Content(
               mediaType = "application/json",
-              schema = @Schema(required = true, ref = "#/components/schemas/ReportData")
+              schema = @Schema(required = true, ref = "#/components/schemas/AnonymousReportData")
           )
       )
-          ReportData reportData) {
+          AnonymousReportData reportData) {
 
     counterService.countAnonymous(reportData);
 

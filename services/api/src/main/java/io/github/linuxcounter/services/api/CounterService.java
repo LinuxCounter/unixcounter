@@ -1,6 +1,6 @@
 package io.github.linuxcounter.services.api;
 
-import io.github.linuxcounter.common.value.ReportData;
+import io.github.linuxcounter.common.value.AnonymousReportData;
 
 /**
  * Service for incoming reports from clients.
@@ -23,5 +23,5 @@ public interface CounterService {
    * @param reportData the report data to check and (if valid) count.
    * @throws IllegalArgumentException any data validation error.
    */
-  void countAnonymous(ReportData reportData);
+  void countAnonymous(AnonymousReportData reportData);
 }
