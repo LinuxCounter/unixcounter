@@ -125,7 +125,6 @@
           <version>3.3.2</version>
           <configuration>
             <failOnMissingWebXml>false</failOnMissingWebXml>
-            <attachClasses>true</attachClasses>
           </configuration>
         </plugin>
         <plugin>
@@ -159,6 +158,13 @@
           <artifactId>maven-dependency-plugin</artifactId>
           <version>3.2.0</version>
         </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>3.3.0</version>
+        </plugin>
+
 
         <!-- 3rd party plugins -->
         <plugin>
