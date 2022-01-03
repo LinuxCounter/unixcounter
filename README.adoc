@@ -40,8 +40,8 @@ Refer to this wikipedia article: https://en.wikipedia.org/wiki/Linux_Counter[]
 
 If you want to contribute, please see link:CONTRIBUTING.adoc[].
 
-**rrently we are searching for help. We would need one or maybe two java developers to help us reviving the Counter.**
-Please contact [Christin Löhner](https://github.com/christinloehner "Christin Löhner")
+**Currently we are searching for help. We would need one or maybe two java developers to help us reviving the Counter.**
+Please contact [Christin Löhner](https://github.com/christinloehner)
 
 == Documentation
 
