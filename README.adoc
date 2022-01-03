@@ -18,7 +18,7 @@ In 1993, it was started as a «For fun!» project, to find out:
 
     How many Linux users are there? (world-wide)
 
-The basic idea was, that peaople register themselfs as being linux users. Of course, this way you won't get all Linux users counted, as not every Linux user would register himself. Linux user mostly are very restrictied to safet and security. And for sure more then 90% of all linux users never would register themselfs anywhere for being statistically counted.
+The basic idea was, that peaople register themselfs as being linux users. Of course, this way you won't get all Linux users counted, as not every Linux user would register himself. Linux user mostly are very restrictied to safety and security. And for sure more then 90% of all linux users never would register themselfs anywhere for being statistically counted.
 
 So the only way to get a most accurate number of Linux users world-wide, is to make a guess (preferably a not too wild guess).
 
@@ -35,6 +35,13 @@ The original counter, which already started in 1993 on counter.li.org, was ran b
 The Counter was **slashdotted** three times, while maintained by Christin Löhner.footnote:[https://linux.slashdot.org/story/11/09/10/1249257/the-linux-counter-relaunches]footnote:[https://linux.slashdot.org/story/99/02/25/117248/linux-counter-part-2]footnote:[https://linux.slashdot.org/story/99/10/23/126218/linux-counter-hits-120000] In decenmber 2018 Christin decided to shutdown the project and services of the Linuxcounter due to lack of interest. in 2021 **Benjamin Marwell** asked Christin to revive the project.
 
 Refer to this wikipedia article: https://en.wikipedia.org/wiki/Linux_Counter[]
+
+== Contributing
+
+If you want to contribute, please see link:CONTRIBUTING.adoc[].
+
+**rrently we are searching for help. We would need one or maybe two java developers to help us reviving the Counter.**
+Please contact [Christin Löhner](https://github.com/christinloehner "Christin Löhner")
 
 == Documentation
 
