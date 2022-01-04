@@ -18,9 +18,12 @@ In 1993, it was started as a «For fun!» project, to find out:
 
     How many Linux users are there? (world-wide)
 
-The basic idea was, that peaople register themselfs as being linux users. Of course, this way you won't get all Linux users counted, as not every Linux user would register himself. Linux user mostly are very restrictied to safety and security. And for sure more then 90% of all linux users never would register themselfs anywhere for being statistically counted.
+The basic idea was, that people register themselves as Linux users.
+Of course, this way you won't get all Linux users counted, as not every Linux user would register themself.
+Most Linux users are very concerned about data privacy.
+And for sure more then 90% of all Linux users never would register themselves anywhere for being statistically counted.
 
-So the only way to get a most accurate number of Linux users world-wide, is to make a guess (preferably a not too wild guess).
+So the only way to get a somewhat accurate number of Linux users world-wide, is to make a guess (preferably a not too wild guess).
 
 There is only one way to get a preferably accurate guess: statistics.
 
