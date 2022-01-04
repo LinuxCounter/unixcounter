@@ -14,22 +14,37 @@ This is the successor of the Linux Counter Project, which was abandoned in decem
 
 == Description
 
-It was started as a «For fun!» project, to find out:
+In 1993, it was started as a «For fun!» project, to find out:
 
     How many Linux users are there? (world-wide)
 
-The basic idea (for people) is to register our-selves, as being a Linux users!
+The basic idea was, that people register themselves as Linux users.
+Of course, this way you won't get all Linux users counted, as not every Linux user would register themself.
+Most Linux users are very concerned about data privacy.
+And for sure more then 90% of all Linux users never would register themselves anywhere for being statistically counted.
 
-Of course: this way you won't get all Linux users counted as not every Linux user would register (it-self; at the Linux counter site).
+So the only way to get a somewhat accurate number of Linux users world-wide, is to make a guess (preferably a not too wild guess).
 
-Thus: the only way to know the number, of Linux users world-wide, is to make a guess (preferably a not too wild guess) of the number, of Linux users.
+There is only one way to get a preferably accurate guess: statistics.
 
-=== Not making wild guesses?
+The Linux Counter was known on these domains:
 
-There is only one way, to go: statistics; and so there we are!
+* http://counter.li.org[] since 1993 until 2011 by Harald Tveit Alvestrand.
+* https://www.linuxcounter.net[] since 2011 by Christin Löhner.
+* https://www.unixcounter.com[] since the revival in 2021/2022 by Benjamin Marwell and Christin Löhner.
 
-Also; see this: an http://en.wikipedia.org/wiki/Linux_Counter[article of Wikipedia]
-for information about a Linux Counter project.
+The original counter, which already started in 1993 on counter.li.org, was ran by a Non-Profit membership (organization, called «The Linux Counter Project»), which was created on the 1999-05-01. In 2011 **Alexander Mieland** took over the running counter from **Harald Tveit Alvestrand** and revived it on linuxcounter.net. In 2012 Alexander married and changed his last name to **Löhner**. In 2015 Alexander Löhner became **Christin Löhner** (transsexual woman).footnote:[https://www.christin-loehner.de/2016/01/18/a-mass-of-positive-reactions-on-my-newsletter/]
+
+The Counter was **slashdotted** three times, while maintained by Christin Löhner.footnote:[https://linux.slashdot.org/story/11/09/10/1249257/the-linux-counter-relaunches]footnote:[https://linux.slashdot.org/story/99/02/25/117248/linux-counter-part-2]footnote:[https://linux.slashdot.org/story/99/10/23/126218/linux-counter-hits-120000] In decenmber 2018 Christin decided to shutdown the project and services of the Linuxcounter due to lack of interest. in 2021 **Benjamin Marwell** asked Christin to revive the project.
+
+Refer to this wikipedia article: https://en.wikipedia.org/wiki/Linux_Counter[]
+
+== Contributing
+
+If you want to contribute, please see link:CONTRIBUTING.adoc[].
+
+**Currently we are searching for help. We would need one or maybe two java developers to help us reviving the Counter.**
+Please contact [Christin Löhner](https://github.com/christinloehner)
 
 == Documentation
 
@@ -66,20 +81,5 @@ To compile only the client scripts:
 == License
 
 The new code is licensed under the link:LICENSE[Apache License v2].
-
-== History
-
-The Linux Counter was known on these domains:
-
-* http://counter.li.org[] since 1993 until 2011 by Harald Tveit Alvestrand.
-* https://www.linuxcounter.net[] since 2011 by Christin Löhner.
-* https://www.unixcounter.com[] since the revival in 2021/2022 by Benjamin Marwell and Christin Löhner.
-
-The original counter, which already started in 1993 on counter.li.org, was ran by a Non-Profit membership (organization, called «The Linux Counter Project»), which was created on the 1999-05-01. In 2011 **Alexander Mieland** took over the running counter from **Harald Tveit Alvestrand** and revived it on linuxcounter.net. In 2012 Alexander married and changed his last name to **Löhner**. In 2015 Alexander Löhner became **Christin Löhner** (transsexual woman).footnote:[https://www.christin-loehner.de/2016/01/18/a-mass-of-positive-reactions-on-my-newsletter/]
-
-The Counter was **slashdotted** three times, while maintained by Christin Löhner.footnote:[https://linux.slashdot.org/story/11/09/10/1249257/the-linux-counter-relaunches]footnote:[https://linux.slashdot.org/story/99/02/25/117248/linux-counter-part-2]footnote:[https://linux.slashdot.org/story/99/10/23/126218/linux-counter-hits-120000] In decenmber 2018 Christin decided to shutdown the project and services of the Linuxcounter due to lack of interest. in 2021 **Benjamin Marwell** asked Christin to revive the project.
-
-Refer to this wikipedia article: https://en.wikipedia.org/wiki/Linux_Counter[]
-
 
 
