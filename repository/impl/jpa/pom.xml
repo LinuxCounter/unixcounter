@@ -23,6 +23,11 @@
     </dependency>
     <dependency>
       <groupId>io.github.linuxcounter</groupId>
+      <artifactId>linuxcounter-common-ulid</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.linuxcounter</groupId>
       <artifactId>linuxcounter-repository-api</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
@@ -36,6 +41,20 @@
       <groupId>jakarta.persistence</groupId>
       <artifactId>jakarta.persistence-api</artifactId>
       <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.immutables</groupId>
+      <artifactId>value</artifactId>
+      <classifier>annotations</classifier>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.immutables</groupId>
+      <artifactId>builder</artifactId>
+      <scope>provided</scope>
+      <optional>true</optional>
     </dependency>
 
   </dependencies>

@@ -5,4 +5,7 @@ module linuxcounter.repository.impl.jpa {
   requires linuxcounter.common.value;
   requires linuxcounter.repository.api;
   requires java.persistence;
+  requires linuxcounter.common.ulid;
+  requires org.immutables.builder;
+  requires org.immutables.value.annotations;
 }
