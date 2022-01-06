@@ -7,6 +7,7 @@ module linuxcounter.web.rest.v1 {
   requires java.servlet;
   requires javax.inject;
   requires jakarta.enterprise.cdi.api;
+  requires java.json;
   requires java.json.bind;
   requires microprofile.openapi.api;
 
