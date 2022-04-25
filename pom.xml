@@ -19,7 +19,7 @@
     <plugin.maven.javadoc.version>3.3.1</plugin.maven.javadoc.version>
     <plugin.maven.source.version>3.2.1</plugin.maven.source.version>
 
-    <dependency.jakarta.jaxb.version>2.3.3</dependency.jakarta.jaxb.version>
+    <dependency.jakarta.jaxb.version>4.0.0</dependency.jakarta.jaxb.version>
     <dependency.jakarta.json-api.version>1.1.6</dependency.jakarta.json-api.version>
     <dependency.jakarta.json.bind-api.version>1.0.2</dependency.jakarta.json.bind-api.version>
     <dependency.jakarta.persistence-api.version>2.2.3</dependency.jakarta.persistence-api.version>
